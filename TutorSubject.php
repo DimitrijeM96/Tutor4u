@@ -10,6 +10,7 @@ $_SESSION["Page"] = "TutorSubject";
         <?php require_once(INCLUDES_URL."head.php"); ?>
         <script src="<?=JS_URL.'loginController.js'?>"></script>
         <link rel="stylesheet" type="text/css" href="<?= CSS_URL . "login.css" ?>">
+        <link rel="stylesheet" type="text/css" href="<?= CSS_URL . "background.css" ?>">
         <script src="<?= JS_URL.'AppController.js'?>"></script>
     </head>
     <body>

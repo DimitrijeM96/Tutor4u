@@ -10,6 +10,7 @@ $_SESSION["Page"] = "configuration";
         <?php require_once(INCLUDES_URL."head.php"); ?>
         <script src="<?=JS_URL.'loginController.js'?>"></script>
         <link rel="stylesheet" type="text/css" href="<?= CSS_URL . "login.css" ?>">
+        <link rel="stylesheet" type="text/css" href="<?= CSS_URL . "background.css" ?>">
     </head>
     <body>
         <?php require(INCLUDES_URL."navbar.php"); ?>

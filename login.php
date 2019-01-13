@@ -16,8 +16,13 @@
 
     <body>
         <div class="container h-100">
+            <div class="row w-100 text-center justify-content-center align-items-center">
+                
+            </div>
             <div class="row h-100 justify-content-center align-items-center">
+                
                 <form class="col-4" method="POST">
+                    <img class="img-responsive" src="<?= LOGOS_URL."tutor4u.png" ?>">
                     <div class="form-group">
                         <label for="username">Uporabniško ime:</label>
                         <input name="username" placeholder="janez@gmail.com" type="text" class="form-control" />
